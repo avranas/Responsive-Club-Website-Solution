@@ -1,0 +1,142 @@
+/*Header*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ececf2;
+  color: #0f0f12
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+.small-box {
+  border-radius: 5px;
+  padding: 1.5rem;
+  background-color: #bcbcee;
+  margin: 0.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width:  100%;
+  height: 4rem;
+}
+
+nav {
+  align-items: center;
+  display:  flex;
+}
+
+nav ul {
+  display: inline-flex;
+  margin: 1rem;
+  list-style: none;
+  align-items: center;
+}
+nav a {
+  font-size: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  max-width: 4rem;
+}
+
+.splash-image img {
+  max-width: 70rem;
+  max-height: 50rem;
+}
+
+
+/*Title*/
+
+.title {
+  display: flex;
+  justify-content: center;
+  width:  100%;
+  height: 30rem;
+}
+
+.splash-image {
+  background-image: url("./Images/Splash2.jpg");
+  background-size: cover;
+  width:  100%;
+  display:  flex;
+  align-items: center;
+}
+
+.splash-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.slogan {
+  font-family: Roboto;
+  color: #3a3164;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  opacity: 0.85
+}
+
+
+/*Products*/
+h2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #dfdfff;
+}
+
+.product-box h3{
+  text-align: center;
+}
+
+.product-box img{
+  width: 10rem;
+  height: 10rem;
+  justify-items: center;
+}
+
+/*Team*/
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #dfdfff;
+}
+
+.team-box h3{
+  text-align: center;
+}
+
+.team-box img{
+  width: 12rem;
+  height: 10rem;
+  justify-content: center;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem;
+}
+
+footer p{
+  
+}
